@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    background-color: rgb(53, 51, 52);
+    height: 20vh;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    padding: 30px 20px 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+}
+
+img {
+    padding: 30px;
+    font-size: 17px;
+    border: solid rgb(206, 189, 189);
+    border-radius: 30px;
+    display: flex;
+}
+
+a:hover {
+    background-color: rgb(16, 17, 17);
+    font-size: 40px;
+    color: aqua;
+}
+
+input {
+    padding: 5px;
+    font-size: 17px;
+    border: solid rgb(206, 189, 189);
+    border-radius: 9px;
+}
+
+span {
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+button {
+    font-size: large;
+}
+
+.second {
+    height: 80vh;
+    background-color: rgb(53, 53, 58);
+    text-decoration: none;
+    list-style: none;
+    width: 25%;
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
+    color: aliceblue;
+    font-size: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center; 
+}
+
+.nepal {
+    background-color: rgb(58, 58, 50);
+    padding: 40px;
+    font-size: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.second:hover {
+    background-color: rgb(5, 5, 5);
+    color: rgb(77, 83, 165);
+    font-size: 22px;
+}
+
+.mid {
+    background-color: rgb(241, 229, 229);
+   width: 30%;height: 30%;
+    color: rgb(24, 23, 23);
+}
+html{
+    scroll-behavior: smooth;
+ } 
+
+.main {
+    display: flex;
+    justify-content: space-between; margin: 10px; padding: 10px; font-size: larger;
+}
+h1{
+    font-size: 64px; color: rgb(54, 54, 82); margin: 30px; padding: 20px; text-decoration: underline
+}
+h1:hover{
+    color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 64px;
+}
+.mids {
+    display: inline;
+    display: block;
+    background-color: rgb(245, 228, 228);
+    width: 30%;height: 35%;
+    color: rgb(12, 12, 11);
+}
+
+.midd {
+    display: inline;
+    display: block;
+    background-color: rgb(233, 219, 219);
+    width: 15%;  height: 30%;
+    color: rgb(20, 20, 19); border: black solid;
+}
+.img{
+    display: flex;
+}
+body{background-image: url(./images/logo.png); background-size: cover; background-blend-mode: darken;
+}
+h2{
+    font-weight: bolder; font-size: 38px;text-align:center
+ }
+ form{
+    text-align:center
+ }
+ h3{
+    font-weight: bolder; font-size: 38px ;color: black; margin: 10px;
+ }
+ .Blogs{
+     margin: 30px; padding: 20px;
+ }
+ .material-symbols-outlined{
+    color: black;
+ }
+ h4{
+    color: black; font-size: 64px; text-decoration: underline; text-align: center;
+ }
+ fieldset{
+    width: 30%; 
+ }
+ .media{
+    text-align: right; margin: 50px;
+ }
